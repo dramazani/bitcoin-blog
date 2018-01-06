@@ -1,16 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-    <ul>
-        <li>
-          <a routerLink="/about" href="javascript:void(0)">About</a>
-        </li>
-        <li>
-          <a routerLink="/balance" href="javascript:void(0)">Balance</a>
-        </li>
-        <li>
+    <div class="topnav" id="myTopnav">
+          <a routerLink="/about" href="javascript:void(0)">Home</a>
           <a routerLink="/blog" href="javascript:void(0)">Blog</a>
-        </li>
-      </ul>
+          <a routerLink="/balance" href="javascript:void(0)">Balance</a>
+          <a href="javascript:void(0);" class="icon" (click)="myFunction()">&#9776;</a>
+    </div>
   <h1>
     Welcome to {{ title }}!
   </h1>
