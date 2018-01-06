@@ -3,6 +3,9 @@ language: node_js
 node_js:
    - node # will use latest node
 
+addons:
+  chrome: stable
+
 before_script: # commands to run before the build step
    - npm install -g --silent @angular/cli
 
