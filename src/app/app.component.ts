@@ -6,18 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
-  hideMobileNav() {
-    var x = document.getElementById("myTopnav");
-    x.className = "topnav";
-  }
-
-  toggleMobileNav() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-  }
 }
