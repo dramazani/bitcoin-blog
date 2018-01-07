@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { CryptoComponent } from './crypto/crypto.component';
+import { SiteComponent } from './site/site.component';
+import { DevopsComponent } from './devops/devops.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { CryptoComponent } from './crypto/crypto.component';
     AppComponent,
     AboutComponent,
     BlogComponent,
-    CryptoComponent
+    CryptoComponent,
+    SiteComponent,
+    DevopsComponent
   ],
   imports: [
     BrowserModule,
