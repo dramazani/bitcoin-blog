@@ -10,6 +10,7 @@ import { BlogComponent } from './blog/blog.component';
 import { CryptoComponent } from './crypto/crypto.component';
 import { SiteComponent } from './site/site.component';
 import { DevopsComponent } from './devops/devops.component';
+import { ChanComponent } from './chan/chan.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { DevopsComponent } from './devops/devops.component';
     BlogComponent,
     CryptoComponent,
     SiteComponent,
-    DevopsComponent
+    DevopsComponent,
+    ChanComponent
   ],
   imports: [
     BrowserModule,
