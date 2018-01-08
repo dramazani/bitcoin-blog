@@ -12,6 +12,8 @@ import { SiteComponent } from './site/site.component';
 import { DevopsComponent } from './devops/devops.component';
 import { ChanComponent } from './chan/chan.component';
 
+import { NgGistModule } from 'ng-gist'
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { ChanComponent } from './chan/chan.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgGistModule
   ],
   providers: [],
   bootstrap: [AppComponent]
