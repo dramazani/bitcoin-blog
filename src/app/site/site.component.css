@@ -1,0 +1,12 @@
+h2 {
+    text-align: left;
+}
+
+table {
+    text-align: left;
+    width:100%
+}
+
+th:first-child { 
+    width:150px;
+}
